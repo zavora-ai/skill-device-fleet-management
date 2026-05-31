@@ -1,11 +1,11 @@
 ---
 name: device-fleet-management
 description: Manage device fleets — get device info, check security posture, list applications, collect diagnostics, run health checks, and create remediation tasks. Use when checking device health, auditing security posture, listing installed apps, collecting diagnostics, or remediating compliance issues.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-device-management server connected.
 allowed-tools: [get_device, list_user_devices, get_security_posture, list_applications, collect_diagnostics, run_health_check, create_remediation, get_system_stats, list_processes, get_network_info]
-tags: [devops, devices, fleet, endpoint, security]
 metadata:
+  category: engineering
   author: Zavora AI
   mcp-server: mcp-device-management
   success-criteria:
